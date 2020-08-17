@@ -5,6 +5,8 @@
 - DFS*
 - BFS*
 --------------------
+- LIS
+- LCS
 - Dijkstra
 - Floyd Warshall
 - Prim
