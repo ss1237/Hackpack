@@ -2,8 +2,8 @@
 
 - Greedy
 - DP
-- DFS
-- BFS
+- DFS*
+- BFS*
 --------------------
 - Dijkstra
 - Floyd Warshall
@@ -12,8 +12,8 @@
 - Top Sort
 - Bellman Ford
 - DSU
-- BIT/Fenwick Trees
-- Segment Tree
+- BIT/Fenwick Trees*
+- Segment Tree*
 - Hashing
 - LCA
 --------------------
