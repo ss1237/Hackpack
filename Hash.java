@@ -1,6 +1,6 @@
-//Hash class, name from HarmeyerHash
+//From HarmeyerHash
 
-static class HH implements Comparable<HH> {
+static class Hash implements Comparable<Hash> {
 	static final long m1=8675309, m2=1_000_000_007;
 	long v1=0, v2=0; int l=0;
 	static final long s1=257, s2=619;
@@ -19,22 +19,22 @@ static class HH implements Comparable<HH> {
 		l++;
 	}
 
-	public int compareTo(HH o) {
+	public int compareTo(Hash o) {
 		if (v1!=o.v1)
 			return Long.compare(v1, o.v1);
 		return Long.compare(v2, o.v2);
 	}
 
 	public boolean equals(Object o) {
-		return compareTo((HH)o)==0;
+		return compareTo((Hash)o)==0;
 	}
 
 	public int hashCode() {
 		return (int)v1;
 	}
 
-	public HH clone() {
-		HH toReturn=new HH();
+	public Hash clone() {
+		Hash toReturn=new Hash();
 		toReturn.v1=v1;
 		toReturn.v2=v2;
 		toReturn.l=l;
@@ -54,18 +54,18 @@ static class HH implements Comparable<HH> {
 	}
 
 	//need fastPow if o can be longer than 10^6
-	void append(HH o) {
+	void append(Hash o) {
 		precomp();
 		v1=(v1*s1Pow[o.l]+o.v1)%m1;
 		v2=(v2*s2Pow[o.l]+o.v2)%m2;
 		l+=o.l;
 	}
 
-	public static HH[] getPrefixHashes(char[] word) {
+	public static Hash[] getPrefixHashes(char[] word) {
 		precomp();
 		int n=word.length;
-		HH[] toReturn=new HH[n+1];
-		toReturn[0]=new HH();
+		Hash[] toReturn=new Hash[n+1];
+		toReturn[0]=new Hash();
 		for (int i=1; i<=n; i++) {
 			toReturn[i]=toReturn[i-1].clone();
 			toReturn[i].add(word[i-1]);
@@ -73,11 +73,11 @@ static class HH implements Comparable<HH> {
 		return toReturn;
 	}
 
-	public static HH[] getPrefixHashes(String word) {
+	public static Hash[] getPrefixHashes(String word) {
 		precomp();
 		int n=word.length();
-		HH[] toReturn=new HH[n+1];
-		toReturn[0]=new HH();
+		Hash[] toReturn=new Hash[n+1];
+		toReturn[0]=new Hash();
 		for (int i=1; i<=n; i++) {
 			toReturn[i]=toReturn[i-1].clone();
 			toReturn[i].add(word.charAt(i - 1));
@@ -86,10 +86,10 @@ static class HH implements Comparable<HH> {
 	}
 
 	//inclusive, exclusive
-	public static HH substringHash(HH[] prefixHashes, int from, int to) {
+	public static Hash substringHash(Hash[] prefixHashes, int from, int to) {
 		if (from==to)
-			return new HH();
-		HH old=prefixHashes[to].clone(), toSub=prefixHashes[from];
+			return new Hash();
+		Hash old=prefixHashes[to].clone(), toSub=prefixHashes[from];
 		int diff=to-from;
 		old.v1=(old.v1-(toSub.v1*s1Pow[diff])%m1+m1)%m1;
 		old.v2=(old.v2-(toSub.v2*s2Pow[diff])%m2+m2)%m2;
