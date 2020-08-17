@@ -1,8 +1,20 @@
+//Matrix Fast Expo for number of paths of length k in a graph
 public class MatrixExpo {
     static int mod = (int) 1e9 + 7;
 
     public static void main(String[] args) throws IOException {
+        FastScanner in = new FastScanner(System.in);
+        PrintWriter out = new PrintWriter(System.out);
+        int n = in.nextInt();
+        int m = in.nextInt();
+        long k = in.nextLong();
         int[][] base = new int[n][n];
+        for (int i = 0; i < m; i++) {
+            int u = in.nextInt() - 1; //matrix is 0-indexed
+            int v = in.nextInt() - 1;
+            base[u][v]++;
+        }
+        
         int[][] pow = expo(base, k);
     }
 
