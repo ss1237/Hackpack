@@ -15,7 +15,7 @@
 - Bellman Ford
 - DSU
 - BIT/Fenwick Trees*
-- Segment Tree*
+- Segment Tree(add lazy prop)
 - Hashing
 - LCA
 --------------------
