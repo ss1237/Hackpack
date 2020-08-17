@@ -5,6 +5,10 @@ import java.io.*;
 
 public class DFS {
     public static void main(String[] args) throws IOException {
+        FastScanner in = new FastScanner(System.in);
+        PrintWriter out = new PrintWriter(System.out);
+        int n = in.nextInt();
+        int m = in.nextInt();
         ArrayList<Integer>[] adj = new ArrayList[n + 1];
         boolean[] vis = new boolean[n + 1];
         Arrays.setAll(adj, x -> new ArrayList<>());
