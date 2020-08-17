@@ -43,7 +43,7 @@ public class Dijkstra {
             long[] cur = pq.poll();
             int vtx = (int) cur[0];
 
-            if (vis[vtx] || dist[vtx] != cur[1]) continue;
+            if (dist[vtx] != cur[1]) continue;
             vis[vtx] = true;
 
             for (int[] edge : adj[vtx]) {
