@@ -4,7 +4,7 @@
 - DP
 - DFS
 - BFS
-
+--------------------
 - Dijkstra
 - Floyd Warshall
 - Prim
@@ -16,7 +16,7 @@
 - Segment Tree
 - Hashing
 - LCA
-
+--------------------
 - HLD
 - Suffix Array
 - SCC(Tarjan)
