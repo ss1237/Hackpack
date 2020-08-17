@@ -4,6 +4,7 @@
 - DP
 - DFS
 - BFS
+
 - Dijkstra
 - Floyd Warshall
 - Prim
@@ -14,11 +15,13 @@
 - BIT/Fenwick Trees
 - Segment Tree
 - Hashing
-- Suffix Array*
+- LCA
+
+- HLD
+- Suffix Array
 - SCC(Tarjan)
 - Ford Fulkerson
 - DFS Lowlink
-- LCA
 - Sqrt Decomp
 - Sparse Tables
 - Mo's
