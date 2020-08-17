@@ -6,9 +6,9 @@
 - BFS*
 --------------------
 - LIS
-- LCS
+- LCS*
 - Dijkstra
-- Floyd Warshall
+- Floyd Warshall*
 - Prim
 - Kruskal
 - Top Sort
