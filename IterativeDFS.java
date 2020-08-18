@@ -3,7 +3,7 @@
 import java.util.*;
 import java.io.*;
 
-public class DFS {
+public class IterativeDFS {
     public static void main(String[] args) throws IOException {
         FastScanner in = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
