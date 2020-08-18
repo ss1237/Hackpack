@@ -35,7 +35,6 @@ public class Dijkstra {
 
     static void dijkstra(int src, ArrayList<int[]>[] adj, long[] dist) {
         PriorityQueue<long[]> pq = new PriorityQueue<>(Comparator.comparingLong(a -> a[1]));
-        boolean[] vis = new boolean[dist.length];
         dist[src] = 0;
         pq.add(new long[] {src, 0});
 
@@ -44,14 +43,10 @@ public class Dijkstra {
             int vtx = (int) cur[0];
 
             if (dist[vtx] != cur[1]) continue;
-            vis[vtx] = true;
 
             for (int[] edge : adj[vtx]) {
-                if (!vis[edge[0]]) {
-                    if (dist[vtx] + edge[1] < dist[edge[0]]) {
-                        dist[edge[0]] = dist[vtx] + edge[1];
-                        pq.add(new long[] {edge[0], dist[vtx] + edge[1]});
-                    }
+                if (dist[vtx] + edge[1] < dist[edge[0]]) {
+                    pq.add(new long[] {edge[0], dist[edge[0]] = dist[vtx] + edge[1]});
                 }
             }
 
