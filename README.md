@@ -2,22 +2,22 @@
 
 - Greedy
 - DP
-- DFS*
-- BFS*
+- DFS**
+- BFS**
 - Binary Search
 --------------------
-- LIS
-- LCS*
-- Dijkstra
-- Floyd Warshall*
+- LIS**
+- LCS**
+- Dijkstra**
+- Floyd Warshall**
 - Prim
 - Kruskal
 - Top Sort
-- Bellman Ford
+- Bellman Ford**
 - DSU
-- BIT/Fenwick Trees*
+- BIT/Fenwick Trees**
 - Segment Tree(add lazy prop)
-- Hashing
+- Hashing**
 - LCA
 --------------------
 - HLD
