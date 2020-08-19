@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 
 //Finds minimum spanning tree, kinda different from most implementations online
+//Prim's is better for dense graphs (E >> V)
 
 public class PrimMST {
     public static void main(String[] args) throws IOException {
