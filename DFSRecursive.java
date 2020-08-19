@@ -3,7 +3,7 @@
 import java.util.*;
 import java.io.*;
 
-public class RecursiveDFS {
+public class DFSRecursive {
     public static void main(String[] args) throws IOException {
         FastScanner in = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
