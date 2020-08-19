@@ -6,12 +6,12 @@
 - BFS**
 - Binary Search**
 --------------------
-- LIS**
+- LIS/LNDS**
 - LCS**
 - Dijkstra**
 - Floyd Warshall**
-- Prim
-- Kruskal
+- Prim**
+- Kruskal**
 - Top Sort
 - Bellman Ford**
 - DSU
