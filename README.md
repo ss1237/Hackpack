@@ -1,25 +1,24 @@
 ## Hackpack
 
-- Greedy
-- DP
-- DFS**
-- BFS**
-- Binary Search**
+**Finished**
+- DFS
+- BFS
+- Binary Search
+- LIS/LNDS
+- LCS
+- Dijkstra
+- Floyd Warshall
+- Prim
+- Kruskal
+- Bellman Ford
+- BIT/Fenwick Trees
+- Hashing
 --------------------
-- LIS/LNDS**
-- LCS**
-- Dijkstra**
-- Floyd Warshall**
-- Prim**
-- Kruskal**
-- Top Sort
-- Bellman Ford**
-- DSU
-- BIT/Fenwick Trees**
+**To Do**
 - Segment Tree(add lazy prop and other types of queries)
-- Hashing**
+- DSU
+- Top Sort
 - LCA
---------------------
 - HLD
 - Suffix Array
 - SCC(Tarjan)
