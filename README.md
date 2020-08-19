@@ -4,7 +4,7 @@
 - DP
 - DFS**
 - BFS**
-- Binary Search
+- Binary Search**
 --------------------
 - LIS**
 - LCS**
