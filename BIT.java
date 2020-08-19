@@ -22,4 +22,8 @@ static class BIT {
         }
         return sum;
     }
+    
+    public int range(int a, int b) {
+        return query(b) - query(a - 1);
+    }
 }
