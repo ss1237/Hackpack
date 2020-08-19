@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 
 //Uses DSU to implement Kruskal's algorithm for Minimum Spanning Tree
+//Prim's is better for dense graphs (E >> V)
 
 public class KruskalMST {
 
