@@ -2,7 +2,6 @@
 
 **To Do**
 - Dijkstra (print path)
-- DSU
 - LCA
 - HLD
 - Suffix Array
@@ -23,6 +22,7 @@
 - Top Sort
 - LIS/LNDS
 - LCS
+- DSU
 - Floyd Warshall
 - Prim
 - Kruskal
