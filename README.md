@@ -1,7 +1,6 @@
 ## Hackpack
 
 **To Do**
-- Segment Tree(add lazy prop and other types of queries)
 - Dijkstra (print path)
 - DSU
 - LCA
@@ -29,4 +28,5 @@
 - Kruskal
 - Bellman Ford
 - BIT/Fenwick Trees
+- Segment Tree
 - Hashing
