@@ -5,7 +5,8 @@ public class USACOTemplate {
     static String filename = "";
 	
     public static void main(String[] args) throws IOException {
-	FastScanner in = new FastScanner(new FileInputStream(filename + ".in"));
+	//FastScanner in = new FastScanner(System.in);
+    	FastScanner in = new FastScanner(new FileInputStream(filename + ".in"));
 	PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename + ".out")));
         
 		
