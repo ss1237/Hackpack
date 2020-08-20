@@ -23,7 +23,7 @@ public class FloydWarshall {
             int v = in.nextInt();
             long c = in.nextLong();
             dist[u][v] = Math.min(dist[u][v], c);
-            dist[v][u] = Math.min(dist[u][v], c);
+            dist[v][u] = Math.min(dist[v][u], c);
         }
 
 
