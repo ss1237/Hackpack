@@ -4,7 +4,6 @@
 - Segment Tree(add lazy prop and other types of queries)
 - Dijkstra (print path)
 - DSU
-- Top Sort
 - LCA
 - HLD
 - Suffix Array
@@ -21,6 +20,7 @@
 - DFS
 - BFS
 - Binary Search
+- Top Sort
 - LIS/LNDS
 - LCS
 - Floyd Warshall
