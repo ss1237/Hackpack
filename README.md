@@ -2,6 +2,7 @@
 
 **To Do**
 - Segment Tree(add lazy prop and other types of queries)
+- Dijkstra (print path)
 - DSU
 - Top Sort
 - LCA
@@ -22,7 +23,6 @@
 - Binary Search
 - LIS/LNDS
 - LCS
-- Dijkstra
 - Floyd Warshall
 - Prim
 - Kruskal
