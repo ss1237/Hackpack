@@ -1,7 +1,6 @@
 ## Hackpack
 
 **To Do**
-- Dijkstra (print path)
 - LCA
 - HLD
 - Suffix Array
