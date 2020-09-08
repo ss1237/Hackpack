@@ -4,7 +4,7 @@
 - LCA
 - HLD
 - Suffix Array
-- SCC(Tarjan)
+- SCC(Tarjan/Kosaraju)
 - Ford Fulkerson
 - DFS Lowlink
 - Sqrt Decomp
