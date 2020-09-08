@@ -28,3 +28,4 @@
 - BIT/Fenwick Trees
 - Segment Tree
 - Hashing
+- Vector
