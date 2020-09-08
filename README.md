@@ -7,9 +7,8 @@
 - SCC(Tarjan/Kosaraju)
 - Ford Fulkerson
 - DFS Lowlink
-- Sqrt Decomp
+- Sqrt Decomp/Mo's
 - Sparse Tables
-- Mo's
 - Tries
 
 ---
