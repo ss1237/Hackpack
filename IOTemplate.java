@@ -4,7 +4,7 @@ import java.io.*;
 public class IOTemplate {
     public static void main(String[] args) throws IOException {
         FastScanner in = new FastScanner(System.in);
-	PrintWriter out = new PrintWriter(new BufferedWriter(System.out));
+	PrintWriter out = new PrintWriter(System.out);
         int bruh = in.nextInt();
 		
 	for (int cases = 0; cases < bruh; cases++) {
