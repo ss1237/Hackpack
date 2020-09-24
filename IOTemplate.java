@@ -48,9 +48,9 @@ public class IOTemplate {
 
             String ret = "";
             while (st.hasMoreTokens()) {
-                ret += st.nextToken();
+                ret += " " + st.nextToken();
             }
-            return ret;
+            return ret.substring(1);
         }
         public int[] nextIntArr(int size) throws IOException {
             int[] arr = new int[size];
