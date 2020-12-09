@@ -10,14 +10,13 @@ public class BinarySearch {
 		
 		//We establish the bounds
 		//f will store the most recent/accurate value
-		int lo = 0, hi = 100000000, m, f = -1;
+		int lo = 0, hi = 100000000;
 
 		// As long as this loop is processing, we need to consider
 		//   values in the INCLUSIVE range [lo, hi].
 		while(lo <= hi) {
 			m = (lo + hi) / 2;
 			if(canDo(m)) {
-				f = m;
 				lo = m + 1;
 			}
 			else {
@@ -25,7 +24,7 @@ public class BinarySearch {
 			}
 		}
 		
-		System.out.println(f == -1 ? "No Solution" : ("Min answer: " + f));
+		System.out.println();
 		
 		out.close();
 		
