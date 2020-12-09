@@ -24,7 +24,8 @@ public class BinarySearch {
 			}
 		}
 		
-		System.out.println();
+	    	//lo > hi
+		System.out.println(lo + " " + hi);
 		
 		out.close();
 		
