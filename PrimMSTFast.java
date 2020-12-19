@@ -1,4 +1,4 @@
-//O(N^2) variation of Prim's, works very well on dense graphs
+//O(N^2) variation of Prim's, works very well on dense graphs since requires only O(N) memory
 
 import java.util.*;
 import java.io.*;
