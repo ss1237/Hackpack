@@ -6,6 +6,7 @@ public class IOTemplateUSACO {
 	
     public static void main(String[] args) throws IOException {
 	//FastScanner in = new FastScanner(System.in);
+	//PrintWriter out = new PrintWriter(System.out);
     	FastScanner in = new FastScanner(new FileInputStream(filename + ".in"));
 	PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename + ".out")));
         
