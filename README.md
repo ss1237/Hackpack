@@ -29,3 +29,4 @@
 - Segment Tree
 - Hashing
 - Vector
+- Combinations (nCr)
