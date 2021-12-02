@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class IOTemplateOldUSACO {
+public class IOTemplateFile {
     static String filename = "";
 	
     public static void main(String[] args) throws IOException {
