@@ -5,7 +5,8 @@
 - HLD
 - Suffix Array
 - SCC(Tarjan/Kosaraju)
-- Ford Fulkerson
+- Edmond-Karp
+- Dinic's
 - DFS Lowlink
 - Sqrt Decomp/Mo's
 - Sparse Tables
